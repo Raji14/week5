@@ -1,0 +1,176 @@
+body {
+  margin: auto;
+  background-color: #000;
+  font-family: sans-serif;
+  color: #fff;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+article.contentwrapper {
+  width: 65%;
+  margin: auto;
+}
+
+h2.nametitle {
+  font-size: 2em;
+  color: #fff;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p.title1 {
+  font-size: 1em;
+  margin-top: 0;
+  color: #cccccc;
+}
+
+section.homemain {
+  background-image: url(/images/doors_img.png);
+  background-repeat: no-repeat;
+  border: 1px solid #85827d;
+  padding: 1em 1em 0 1em;
+  height: auto;
+  margin:0;
+  background-color: #f9f9f9;
+}
+
+p.slogan {
+  font-family: 'Kanit', sans-serif;
+  font-size: 2.5em;
+  margin: 0;
+  padding-top: 430px;
+  padding-bottom: 10px;
+  font-weight: 500;
+  color: #000;
+}
+
+div.talkbutton {
+  clear: both;
+  background-color: #64635f;
+  border: #1px solid #1b1b1b;
+  display: inline;
+  padding: 0.5em;
+  margin-top: 1em;
+}
+
+section.homemain {
+  margin: 0;
+  height: auto;
+  background-color: #f9f9f9;
+}
+h3 {
+  color: #000;
+  font-size: 2em;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+hr.one {
+  width: 30%;
+  align-self: center;
+  border: .5px solid #85827d; 
+  }
+
+hr.two {
+  width: 50%;
+  align-self: center;
+  border: .5px solid #85827d;
+  }
+
+li.mainnav {
+  display: inline;
+  text-decoration: none;
+  float: right;
+  width: 100px;
+  
+}
+
+li.mainnav a{
+  text-decoration: none;
+  color: #fff;
+  padding: .5em;
+  font-size: 1em;
+  background-color: #64635f;
+  border: #1px solid #1b1b1b;
+  }
+
+li.mainnav a:hover{
+  text-decoration: none;
+  color: #000;
+  font-size: 1em;
+  padding: .5em;
+  background-color: #64635f;
+  border: #1px solid #1b1b1b;
+}
+
+.sectioncontainer {
+  display: flex;
+}
+
+.leftsection {
+  clear: both;
+  width: 49%; 
+  display: inline;
+  padding-right: 1em;
+  background-color: #f9f9f9; 
+}
+.rightsection {
+  width: 49%; 
+  background-color: #f9f9f9;
+  margin: 0;
+}
+
+article h4 {
+  color: #000;
+  font-size: 1.5em;
+}
+
+article p {
+  color:#000;
+  font-size: 1em;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h5 {
+  color: #656565;
+  font-size: 1.5em;
+  font-family: 'Barlow Condensed', sans-serif;
+  display: inline;
+  float: left;
+  margin: .25em;
+}
+
+.circle { 
+  background-color: #989898; 
+  width: 50px; 
+  height: 50px; 
+  border-radius: 25px; 
+  border: 1px solid #696969; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  padding-bottom: .25em
+}
+
+
+.whatido {
+  background-color: #4f4f4f;
+  clear: both;
+  color: #fff;
+  margin:0;
+}
+
+/*
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
