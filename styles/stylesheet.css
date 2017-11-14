@@ -41,6 +41,9 @@ p.slogan {
   color: #000;
   padding: .25em;
 }
+section.contactslogan p.slogan {
+  color: #FFF;
+}
 
 .underline {
   text-decoration: underline;
@@ -65,12 +68,9 @@ section.contactslogan {
   position: relative;
 }
 
-section.slogan > section {
-  position: absolute;
-  bottom: 1em;
-  left: 0;
-}
-section.projectsslogan > section {
+section.slogan > section,
+section.projectsslogan > section,
+section.contactslogan > section {
   position: absolute;
   bottom: 1em;
   left: 0;
