@@ -87,6 +87,7 @@ h3 {
   padding-top: 0;
   padding-bottom: 0;
   text-align: center;
+  margin-bottom: 0.5em;
 }
 
 hr.one {
@@ -99,7 +100,7 @@ hr.one {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0.25em 0;
-  }
+}
 
 hr.two {
   width: 50%;
@@ -111,7 +112,7 @@ hr.two {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0.25em 0;
-  }
+}
 
 nav.mainnav {
   float: right;
@@ -131,7 +132,7 @@ nav.mainnav li a{
   font-size: 1em;
   background-color: #64635f;
   border: 1px solid #1b1b1b;
-  }
+}
 
 nav.mainnav li a:hover{
   text-decoration: none;
@@ -155,39 +156,25 @@ nav.mainnav li a:hover{
   border: solid 1px #cfcdcd;
   width:20%;
  }
+
 .testimonial {
   font-style: italic;
 }
 
-.leftsection {
-  clear: both;
-  width: 49%; 
+.mainsection {
+  flex: 1;
   padding: 1em;
   background-color: #f9f9f9; 
   border: 1px solid #cccccc;
   margin: .50em
 }
 
-.leftsection > img {
+.mainsection > img {
   width: 100%;
   border: solid 1px #cfcdcd;
 }
 
-.rightsection {
-  width: 49%; 
-  background-color: #f9f9f9;
-  margin: .50em;
-  border: 1px solid #cccccc;
-  padding: 1em;
-}
-
-
-.rightsection > img {
-  width: 100%;
-  border: solid 1px #cfcdcd;
-}
-
-article.rightsection li {
+.mainsection li {
   color: #000;
   font-family: 'Oxygen', sans-serif;
 }
@@ -239,7 +226,6 @@ h5.projects {
 
 .whatido {
   background-color: #6d6d6d;
-  clear: both;
   color: #fff;
   margin:0;
   padding: 1em;
@@ -247,11 +233,6 @@ h5.projects {
 
 .whatido h3 {
   color: #fff;
-  font-size: 2em;
-  margin: auto;
-  padding-top: 0;
-  padding-bottom: 0;
-  text-align: center;
 }
 
 .whatsection {
@@ -261,7 +242,7 @@ h5.projects {
 }
 .whatunit {
   display: flex;
-  width: 33.33%;
+  flex: 1;
 }
 
 .whaticon {
@@ -277,7 +258,6 @@ h5.projects {
   font-size: 1.5em;
   font-family: 'Barlow Condensed', sans-serif;
   display: block;
-  float: left;
   margin: .05em;
 }
 
@@ -285,7 +265,6 @@ h5.projects {
   color:#fff;
   font-size: 1em;
   font-family: 'Oxygen', sans-serif;
-  float: left;
   padding: .25em;
   margin: 0;
 }
@@ -325,7 +304,6 @@ hr.four {
 }
 
 .helpunittext {
-  clear: both;
   display: block;
 }
 
